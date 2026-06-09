@@ -52,7 +52,7 @@ grep -E '/bin/bash|/bin/sh|/bin/zsh' /etc/passwd | while IFS=: read -r name _ ui
   fi
 done
 
-info "loged in User:"
+info "logged in User:"
 who
 
 # -- 3. Offene Ports & lauschende Dienste -- 
